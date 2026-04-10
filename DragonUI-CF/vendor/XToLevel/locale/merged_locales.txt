@@ -1,0 +1,1147 @@
+[files]
+
+//deDE.lua
+LOCALE["deDE"] = {
+	--[[
+      || Messages
+    --]]
+	['Level Reached'] = "Levelup! Glückwunsch!",
+    ['Pet Level Reached'] = " hat levelup erreicht! Glückwunsch!",
+	['Quests Needed'] = " Quests nötig bis Levelup!",
+	['Battlegrounds Needed'] = " Schlachtfeld nötig bis Levelup!",
+	['Battleground Objectives Needed'] = " Ziel nötig bis Levelup!",
+	['Dungeons Needed'] = " Dungeon nötig bis Levelup!",
+	['Kills Needed'] = " Kills nötig bis Levelup!",
+	['Pet Kills Needed'] = " brauchten für ",
+    
+    --[[
+      || Average Window & LDB Text
+    --]]
+    ['XP'] = "XP",
+	['Kills'] = "Kills",
+    ['Kills Short'] = "K",
+	['Quests'] = "Quests",
+    ['Quests Short'] = "Q",
+    ['Dungeons'] = "Dungeons",
+    ['Dungeons Short'] = "D",
+	['Pet'] = "Begleiter",
+    ['Pet Short'] = "B",
+    ['Battles'] = "Schlachten",
+    ['Battles Short'] = "S",
+	['Battlegrounds'] = "Schlachtfeld",
+    ['Battlegrounds Short'] = "S",
+	['Objectives'] = "Ziele",
+    ['Objectives Short'] = "Z",
+    ['XP Percent'] = "XP",
+	['XP Percent Short'] = "XP",
+	['XP Bars'] = "XP",
+    ['XP Bars Short'] = "XP",
+    ['Pet XP'] = "Begleiter XP",
+    ['Pet XP Short'] = "XP",
+    ['Pet Bars'] = "Begleiter XP",
+    ['Pet Bars Short'] = "XP",
+    ['Bars'] = "bars",
+	['Rested'] = "Rested",
+	['Rested Short'] = "R",
+	['Timer'] = 'Timer',
+	['Timer Short'] = "T",
+	["TimeToLevel"] = "TimeToLevel",
+	
+	--[[
+      || Tooltip
+    --]]
+    ['XToLevel'] = "XToLevel",
+	['Experience'] = "Erfahrung",
+    ['Pet Experience'] = "Begleiter Erfahrung",
+	['XP Progress'] = "Fortschritt",
+    ['XP Bars Remaining'] = "bars nötig",
+	['XP Rested'] = "ruhte",
+	['Quest XP Required'] = "Quest XP nötig",
+	['Kill XP Required'] = "Kill XP nötig",
+    ['Battlegrounds Required'] = "Schlachtfelder nötig",
+	['Current Battleground'] = "Aktuelle Schlachtfeld",
+	['Last Battleground'] = "Neuesten Schlachtfeld",
+    ['Dungeons Required'] = "Dungeons nötig",
+	['Current Dungeon'] = "Aktuelle Dungeon",
+	['Last Dungeon'] = "Neuesten Dungeon",
+	['No Dungeons Completed'] = "Keine Daten",
+	['Name'] = "Name",
+	['Total XP'] = "Total XP",
+    ['Total Rested'] = "Total Ruhte",
+	['NPC Kills'] = "NPC Kills",
+	['No Battles Fought'] = "Keine Daten",
+	['Click To Configure'] = "Linksklick für Konfigurieren",
+	['Right Click To Configure'] = "Rechtsklick für Konfigurieren",
+	['Average'] = "Durchschnitt",
+	['Max'] = "Max",
+	['Min'] = "Min",
+	['Kills to level'] = "Kills to level",
+	
+	["Updating..."] = "Updating...",
+	["Session"] = "Session",
+	["Level"] = "Level",
+	["Mode"] = "Mode",
+	["Time to level"] = "Time to level",
+	["Time elapsed"] = "Time elapsed",
+	["XP per hour"] = "XP/hr",
+	["XP Needed"] = "XP Needed",
+    
+	["No Kills Recorded"] = "No kills recorded this session. Using level data instead. Go kill something!",
+	
+	--[[
+	  || Configuration 
+	--]]
+    ['General Tab'] = 'General',
+    ['Messages Tab'] = 'Nachrichten',
+    ['Window Tab'] = 'Fenster',
+    ['Data Tab'] = 'Daten',
+    ['LDB Tab'] = 'LDB',
+    
+    ['MainDescription'] = 'Ein einfaches Addon, das Informationen über The Kills, Quests, Dungeons, Schlachten und Erfahrung erfordert, um ein Niveau zu gewinnen gibt.',
+    ['Version'] = "Version",
+    ['Author'] = "Autor",
+    ['Email'] = "Email",
+    ['Website'] = "Webseite",
+    ['Category'] = "Kategorie",
+    ['License'] = "Lizenz",
+    ['All Rights Reserved'] = "Alle Rechte vorbehalten.",
+    ["This option becomes available at level 10"] = "Diese Option wird auf Stufe 10 erhältlich.",
+    ["This option becomes available at level 15"] = "Diese Option wird auf Stufe 15 erhältlich.",
+    
+    -- Main panel
+    ['LocaleHeader'] = "Lokalisierung",
+	['Debug'] = "Debuggen",
+	['Show Debug Info'] = "Zeige Debuggen Info",
+    ['Close'] = "Ausgang",
+    ['Config Language Reload Prompt'] = "Die Sprache kann nicht aktualisiert sein, bis das UI neu geladen ist. Wollen Sie die UI jetzt nachladen?",
+    ['Yes'] = 'Ja',
+    ['No'] = 'Nein',
+    
+    ['Recruit A Friend'] = "Freundschaftswerbung",
+    ['Enable'] = "Ermöglichen",
+    ['RAF Description'] = "Diese tripples XP gewonnen, wenn die FSW aktiviert ist, und wenn die FSW-Bonus angewandt wird. Ich kann nicht debuggen mich, weil ich nicht in der FSW förderfähigen Land leben, so, wenn Sie bestätigen können, ob dieser es wäre viel zu schätzen funktioniert.",
+    
+    -- Tab buttons & headers
+    ['Messages'] = "Nachricht",
+    ['Tooltip'] = "Tooltip",
+    ['Data'] = "Daten",
+    ['Window Tab'] = "Fenster",
+    ['LDB Tab'] = "LDB",
+    ['LDB Text'] = "LDB Text",
+    ['Average Window'] = "Durchschnittliche Fenster",
+    ['Average Data'] = "Durchschnittliche Daten",
+    ['Verbose'] = "Ausführlich",
+    	
+	-- Messages
+	['Player Messages'] = "Spielermitteilungen",
+	['Pet Messages'] = "Tiermitteilungen",
+	['Show Floating'] = "Bildschirmmitteilungen",
+	['Show In Chat'] = "Standard-Chat-Fenster",
+	['Show BG Objectives'] = "Zeige BG Ziele",
+    ['Message Colors'] = 'Message Farben',
+	['Player Levelup'] = 'Levelup',
+	['Color Reset'] = 'Reset',
+    ['Color Reset Dialog'] = 'Sind Sie sicher, dass Sie rücksetzen möchten alle das Farben?';
+	
+	-- Average Window
+    ['Active Window Header'] = "Aktives Fenster",
+    ['Classic Specific Options'] = "\"Classic\"-spezifischen Optionen",
+    ['Blocky Specific Options'] = "\"Blocky\"-spezifischen Optionen",
+    ['Window Behavior Header'] = "Verhalten",
+	
+	['Show XToLevel Header'] = "Zeige XToLevel Titel",
+	['Show Window Frame'] = "Zeige Fensterhintergrund",
+	['Show Tooltip'] = "Zeige tooltip",
+	['Show Verbose Text'] = "Ausführlich",
+	['Show Colored Text'] = "XP Fortschrittsfarbe",
+    ['Progress As Bars'] = "Fortschritt als bars",
+    ['Combine Tooltip Data'] = "Kombinieren Tooltip Data",
+	
+	['Vertical Align'] = "Vertikal ausrichten",
+    ['Show Pet Frame'] = "Zeige das Begleiter Fenster",
+    ['Detach Pet Frame'] = "Loslösen das Begleiter Fenster",
+	
+	['Lock Avarage Display'] = "Fenster fixiren",
+	['Allow Average Click'] = "Einstellungen öffnen mit Rechtsklick",
+	
+	['Player Kills'] = "Kills",
+	['Player Quests'] = "Quests",
+	['Player Dungeons'] = "Dungeons",
+	['Player Battles'] = "Schlachtfeld",
+	['Player Objectives'] = "Schlachtfeld Ziele",
+	['Player Progress'] = "Fortschritt",
+	['Player Experience'] = "Experience",
+    
+    ['Pet Kills'] = "Begleiterkills",
+    ['Pet Progress'] = "Begleiterfortschritt",
+	
+	-- Average Data
+	['Data Range Header'] = "Reichweite",
+    ['Data Range Subheader'] = "Diese setzen, wie viele Artikel erfasst die durchschnittliche Berechnungen verwenden. Je höher Sie diesen desto genauer sie bekommen, aber es dauert sie länger, um auf Veränderungen einz.",
+    ["Clear Data Header"] = "Daten löschen",
+    ["Clear Data Subheader"] = "Verwenden Sie diese, um die aufgenommenen Daten zu löschen. Beachten Sie, dass dies nicht rückgängig gemacht werden!",
+    ['Reset Player Kills'] = "Kills",
+    ['Reset Player Quests'] = "Quests",
+    ['Reset Battlegrounds'] = "Schlachtfeld",
+    ['Reset Dungeons'] = "Dungeons",
+    ['Reset Pet Kills'] = "Begleiter",
+    ['Reset Player Kill Dialog'] = "Sind Sie sicher, dass Sie löschen möchten der Spieler tötet?",
+    ['Reset Player Quest Dialog'] = "Sind Sie sicher, dass Sie löschen möchten der Spieler quests?",
+    ['Reset Battleground Dialog'] = "Sind Sie sicher, dass Sie löschen möchten das Schlachtfeld Daten?",
+    ['Reset Dungeon Dialog'] = "Sind Sie sicher, dass Sie löschen möchten das Dungeon Daten?",
+    ['Reset Pet Kill Dialog'] = "Sind Sie sicher, dass Sie löschen möchten der Begleiter tötet?",
+	
+	-- LDB Text
+    ['LDB Appearence Header'] = "Aussehen",
+	['LDB Pattern Header'] = "Text Muster",
+    ['LDB Player Data Header'] = "Player-Daten",
+	['LDB Pet Data Header'] = "Begleiter-Daten",
+    ['LDB Tooltip Header'] = "Tooltip",
+	['Show Text'] = "Zeige Text",
+	['Show Label'] = "Zeige Label",
+	['Show Icon'] = "Zeige Icon",
+    ['Show Progress As Bars'] = "Zeige XP Fortschritt als bars",
+	['Show XP remaining'] = 'Show XP remaining, rather than gained.',
+	['Shorten XP values'] = 'Shorten XP values',
+    ['Allow Colored Text'] = "Erlaube Textfarbe",
+	['Show Verbose'] = "Ausführlich",
+	['Color By XP'] = "XP Fortschrittsfarbe",
+	['XP %'] = "XP %",
+	['Pet XP %'] = "Pet XP %",
+	['LDB Custom Pattern Help'] = "Verfügbare Tags:\n" ..
+	"|cFFFFD100Spieler:|r {kills}, {quests}, {dungeons}, {bgs}, {bgo}, {xp}, {xpnum}, {rested}, {restedp}\n" ..
+	"|cFFFFD100Begleiter:|r {pet}, {petxp}, {petxpnum}\n\n" ..
+	"|cFFFFD100Innerhalb von Tags können Sie verwenden:|r\n" ..
+	"{$label} - Der Kurzname (z. B. 'K' für Kills).\n" ..
+	"{$value} - Der berechnete Wert (z. B. '123').\n" ..
+	"{$seperator:X} - Ein Trennzeichen, das nur angezeigt wird, wenn es nicht das erste Element ist.\n\n" ..
+	"|cFFFFD100Styling:|r\n" ..
+	"{color=RRGGBB}text{/color} - Wenden Sie eine Hex-Farbe auf Text an.\n" ..
+	"{progress}text{/progress} - Wenden Sie die fortschrittsbasierte Farbe an (grün bis rot).\n\n" ..
+	"|cFFFFD100Beispiel:|r K: {kills}{progress}[{$value}]{/progress}{/kills}",
+	
+	-- Tooltip
+	['Tooltip Sections Header'] = "Sections",
+	['Show Player Details'] = "Spieler Details anzeigen",
+	['Show Player Experience'] = "Zeige Spieler-Erfahrung",
+	['Show Battleground Info'] = "Zeige battlefield info",
+    ['Show Dungeon Info'] = "Zeige dungeon info",
+	['Show Pet Details'] = "Begleiter Details anzeigen",
+    ['Show Timer Details'] = "Show Timer Details",
+}
+//dkDK.lua
+LOCALE["dkDK"] = {
+    --[[
+      || Messages
+    --]]
+    ['Level Reached'] = "Level op! Tillykke!",
+    ['Pet Level Reached'] = " har nå sit næste level! Tillykke!",
+	['Quests Needed'] = " flere quests som den for at level op",
+	['Battlegrounds Needed'] = " flere kampe som den for at level op",
+	['Battleground Objectives Needed'] = " flere mål som den for at level op",
+	['Dungeons Needed'] = " flere løbe som den for at level op",
+	['Kills Needed'] = " flere for at level op",
+	['Pet Kills Needed'] = " for at ",
+
+    --[[
+      || Average Window & LDB Text
+    --]]
+    ['XP'] = "XP",
+    ['Kills'] = "Drab",
+    ['Kills Short'] = "D",
+	['Quests'] = "Quests",
+    ['Quests Short'] = "Q",
+    ['Dungeons'] = "Dungeons",
+    ['Dungeons Short'] = "Du",
+	['Pet'] = "Pet",
+    ['Pet Short'] = "P",
+    ['Battles'] = "Kampe",
+    ['Battles Short'] = "K",
+	['Battlegrounds'] = "Battlegrounds",
+    ['Battlegrounds Short'] = "B",
+	['Objectives'] = "Mål",
+	['Objectives Short'] = "M",
+    ['XP Percent'] = "XP",
+	['XP Percent Short'] = "XP",
+	['XP Bars'] = "XP",
+    ['XP Bars Short'] = "XP",
+    ['Pet XP'] = "Pet XP",
+    ['Pet XP Short'] = "XP",
+    ['Pet Bars'] = "Pet XP",
+    ['Pet Bars Short'] = "XP",
+    ['Bars'] = "bars",
+	['Rested'] = "Rested",
+	['Rested Short'] = "R",
+	['Timer'] = 'Timer',
+	['Timer Short'] = "T",
+	["TimeToLevel"] = "TimeToLevel",
+    
+    --[[
+      || Tooltip
+    --]]
+    ['XToLevel'] = "XToLevel",
+    ['Experience'] = "Erfaring",
+    ['Pet Experience'] = "Pet Erfaring",
+	['XP Progress'] = "fremskridt",
+    ['XP Bars Remaining'] = "bars nødvendigt",
+	['XP Rested'] = "udhvilet",
+	['Quest XP Required'] = "quest XP nødvendigt",
+	['Kill XP Required'] = "drab XP nødvendigt",
+    ['Battlegrounds Required'] = "Battlegrounds Påkrævet",
+	['Current Battleground'] = "Nuværende Battleground",
+	['Last Battleground'] = "Sidste Battleground",
+    ['Dungeons Required'] = "Dungeons Påkrævet",
+	['Current Dungeon'] = "Nuværende Dungeon",
+	['Last Dungeon'] = "Sidste Dungeon",
+	['No Dungeons Completed'] = "Ingen Data",
+	['Name'] = "Navn",
+	['Total XP'] = "Alt XP",
+    ['Total Rested'] = "Alt Udhvilet",
+	['NPC Kills'] = "NPC Drab",
+	['No Battles Fought'] = "Ingen Data",
+    ['Click To Configure'] = "Klik for at konfigurere",
+	['Right Click To Configure'] = "Højre-Klik for at konfigurere",
+    ['Average'] = "Nogenlunde",
+	['Max'] = "Max",
+	['Min'] = "Min",
+	['Kills to level'] = "Kills to level",
+	
+	["Updating..."] = "Updating...",
+	["Session"] = "Session",
+	["Level"] = "Level",
+	["Mode"] = "Mode",
+	["Time to level"] = "Time to level",
+	["Time elapsed"] = "Time elapsed",
+	["XP per hour"] = "XP/hr",
+	["XP Needed"] = "XP Needed",
+	
+	["No Kills Recorded"] = "No kills recorded this session. Using level data instead. Go kill something!",
+    
+	--[[
+	  || Configuration 
+	--]]
+    ['General Tab'] = 'Generelt',
+    ['Messages Tab'] = 'Beskeder',
+    ['Window Tab'] = 'Vindue',
+    ['Data Tab'] = 'Data',
+    ['LDB Tab'] = 'LDB',
+    
+    ['MainDescription'] = 'En simpel addon der giver detaljer om dræber, quests, dungeons, slag og erfaring, der kræves for at opnå et niveau.',
+    ['Version'] = "Version",
+    ['Author'] = "Author",
+    ['Email'] = "Email",
+    ['Website'] = "Websted",
+    ['Category'] = "Kategori",
+    ['License'] = "License",
+    ['All Rights Reserved'] = "Alle rettigheder forbeholdt.",
+    ["This option becomes available at level 10"] = "Denne mulighed bliver tilgængelig på niveau 10.",
+    ["This option becomes available at level 15"] = "Denne mulighed bliver tilgængelig på niveau 15.",
+    
+    -- Main panel
+    ['LocaleHeader'] = "Locale",
+    ['Debug'] = "Debug",
+	['Show Debug Info'] = "Vis Debug Info",
+    ['Close'] = "Luk",
+    ['Config Language Reload Prompt'] = "Sproget vil ikke blive ændret, før UI genindlæses. Ønsker du at genindlæse nu?",
+    ['Yes'] = 'Ja',
+    ['No'] = 'Nej',
+    
+    ['Recruit A Friend'] = "Tilmeld en ven",
+    ['Enable'] = "Aktiver",
+    ['RAF Description'] = "Dette tripples XP erfaringer, når TEV er aktiveret, og når TEV bonus anvendes. Jeg kan ikke debug dette selv, fordi jeg ikke bor i en TEV støtteberettiget land, så hvis du kan bekræfte, hvorvidt dette virker det ville være meget værdsat.",
+    
+    -- Tab buttons & headers
+    ['Messages'] = "Beskeder",
+    ['Tooltip'] = "Tooltip",
+    ['Data'] = "Data",
+    ['Window Tab'] = "Vindue",
+    ['LDB Tab'] = "LDB",
+    ['LDB Text'] = "LDB Tekst",
+    ['Average Window'] = "Det nogenlunde Vindue",
+    ['Average Data'] = "Det nogenlunde Data",
+    ['Verbose'] = "Verbose",
+	
+	-- Messages
+	['Player Messages'] = "Spiller Bedskeder",
+	['Pet Messages'] = "Pet Bedskeder",
+    ['Message Colors'] = 'Besked Farver',
+	['Show Floating'] = "Vis flydende",
+	['Show In Chat'] = "Vis i Chat",
+	['Show BG Objectives'] = "Vis BG Mål",
+	['Player Levelup'] = 'Level op',
+	['Color Reset'] = 'Nulstil Farver',
+    ['Color Reset Dialog'] = 'Er du sikker på at du vil nulstille farver?';
+	
+	-- Average Window
+    ['Active Window Header'] = "Aktive Vindue",
+    ['Classic Specific Options'] = "\"Classic\" specifikke indstillinger",
+    ['Blocky Specific Options'] = "\"Blocky\" specifikke indstillinger",
+    ['Window Behavior Header'] = "Opførsel",
+	
+	['Show XToLevel Header'] = "Vis XToLevel Header",
+	['Show Window Frame'] = "Vis Vindue Ramme",
+	['Show Tooltip'] = "Vis Tooltip",
+	['Show Verbose Text'] = "Brug Verbose Tekst",
+	['Show Colored Text'] = "Vis Farvet Tekst",
+    ['Progress As Bars'] = "Fremskridt som barer",
+    ['Combine Tooltip Data'] = "Kombiner Tooltip Data",
+	
+	['Vertical Align'] = "Juster vertikalt",
+    ['Show Pet Frame'] = "Vis pet Vindue",
+    ['Detach Pet Frame'] = "Løsne pet Vindue",
+	
+	['Lock Avarage Display'] = "Lås Vindue",
+	['Allow Average Click'] = "Vis Redigering med højre-klik",
+	
+	['Player Kills'] = "Spiller Drab",
+	['Player Quests'] = "Spiller Quests",
+    ['Player Dungeons'] = "Dungeons",
+	['Player Battles'] = "Spiller Kampe",
+	['Player Objectives'] = "Spiller Kamp-mål",
+	['Player Progress'] = "Fremskridt",
+	['Player Experience'] = "Experience",
+    
+    ['Pet Kills'] = "Pet Kills",
+    ['Pet Progress'] = "Pet Fremskridt",
+    
+	-- Average Data
+    ['Data Range Header'] = "Range",
+    ['Data Range Subheader'] = "Disse indstille, hvor mange registrerede poster den gennemsnitlige beregninger brug. Jo højere du sætter disse mere præcise de får, men det tager dem længere tid at tilpasse sig ændringer.",
+    ["Clear Data Header"] = "Ryd Data",
+    ["Clear Data Subheader"] = "Brug disse til at klare de registrerede data. Bemærk, at denne ikke kan vendes! Brug med forsigtighed.",
+    ['Reset Player Kills'] = "Spiller Drab",
+    ['Reset Player Quests'] = "Spiller Quests",
+    ['Reset Battlegrounds'] = "Battlegrounds",
+    ['Reset Dungeons'] = "Dungeons",
+    ['Reset Pet Kills'] = "Pet Drab",
+    ['Reset Player Kill Dialog'] = "Er du sikker på at du vil slette spillerens drab-optagelser?",
+    ['Reset Player Quest Dialog'] = "Er du sikker på at du vil slette spillerens quest-optagelser?",
+    ['Reset Battleground Dialog'] = "Er du sikker på at du vil slette battleground-optagelser?",
+    ['Reset Dungeon Dialog'] = "Er du sikker på at du vil slette spillerens dungeon-optagelser?",
+    ['Reset Pet Kill Dialog'] = "Er du sikker på at du vil slette dit pets' drab-optagelser?",
+	
+	-- LDB Text
+    ['LDB Appearence Header'] = "Appearence",
+	['LDB Pattern Header'] = "Tekst Mønster",
+    ['LDB Player Data Header'] = "Spiller Data",
+	['LDB Pet Data Header'] = "Pet Data",
+    ['LDB Tooltip Header'] = "Tooltip",
+	['Show Text'] = "Vis Tekst",
+	['Show Label'] = "Vis Etiket",
+	['Show Icon'] = "Vis Ikon",
+    ['Show Progress As Bars'] = "Vis XP fremskridt som barer",
+	['Show XP remaining'] = 'Show XP remaining, rather than gained.',
+	['Shorten XP values'] = 'Shorten XP values',
+	['Allow Colored Text'] = "Tillad farvet tekst",
+	['Show Verbose'] = "Verbose",
+	['Color By XP'] = "Farve-data af XP-fremskridt",
+	['XP %'] = "XP %",
+	['Pet XP %'] = "Pet XP %",
+	['LDB Custom Pattern Help'] = "Tilgængelige tags:\n" ..
+	"|cFFFFD100Spiller:|r {kills}, {quests}, {dungeons}, {bgs}, {bgo}, {xp}, {xpnum}, {rested}, {restedp}\n" ..
+	"|cFFFFD100Kæledyr:|r {pet}, {petxp}, {petxpnum}\n\n" ..
+	"|cFFFFD100Inden for tags kan du bruge:|r\n" ..
+	"{$label} - Det korte navn (f.eks. 'K' for Kills).\n" ..
+	"{$value} - Den beregnede værdi (f.eks. '123').\n" ..
+	"{$seperator:X} - En separator, der kun vises, hvis det ikke er det første element.\n\n" ..
+	"|cFFFFD100Styling:|r\n" ..
+	"{color=RRGGBB}tekst{/color} - Anvend en hex-farve på tekst.\n" ..
+	"{progress}tekst{/progress} - Anvend den fremskridtsbaserede farve (grøn til rød).\n\n" ..
+	"|cFFFFD100Eksempel:|r K: {kills}{progress}[{$value}]{/progress}{/kills}",
+	
+	-- Tooltip
+	['Tooltip Sections Header'] = "Sections",
+	['Show Player Details'] = "Vis spiller detaljer",
+	['Show Player Experience'] = "Vis spiller erfaring",
+	['Show Battleground Info'] = "Vis Battleground Info",
+    ['Show Dungeon Info'] = "Vis Dungeon Info",
+	['Show Pet Details'] = "Vis Pet Detaljer",
+    ['Show Timer Details'] = "Vis Timer Info",
+}
+//enUS.lua
+LOCALE["enUS"] = {
+    --[[
+      || Messages
+    --]]
+    ['Level Reached'] = "Level reached. Congratulations!",
+    ['Pet Level Reached'] = " has reach the next level. Congratulations!",
+	['Quests Needed'] = " more quests like that needed to level",
+	['Battlegrounds Needed'] = " more battles like that needed to level",
+	['Battleground Objectives Needed'] = " more objectives like that needed to level",
+	['Dungeons Needed'] = " more runs like that needed to level",
+	['Kills Needed'] = " needed to level",
+	['Pet Kills Needed'] = " needed for ",
+
+    --[[
+      || Average Window & LDB Text
+    --]]
+    ['XP'] = "XP",
+    ['Kills'] = "Kills",
+    ['Kills Short'] = "K",
+	['Quests'] = "Quests",
+    ['Quests Short'] = "Q",
+    ['Dungeons'] = "Dungeons",
+    ['Dungeons Short'] = "D",
+	['Pet'] = "Pet",
+    ['Pet Short'] = "P",
+    ['Battles'] = "Battles",
+    ['Battles Short'] = "B",
+	['Battlegrounds'] = "Battlegrounds",
+    ['Battlegrounds Short'] = "B",
+	['Objectives'] = "Objectives",
+	['Objectives Short'] = "O",
+	['XP Percent'] = "XP",
+	['XP Percent Short'] = "XP",
+	['XP Bars'] = "XP",
+    ['XP Bars Short'] = "XP",
+    ['Pet XP'] = "Pet XP",
+    ['Pet XP Short'] = "XP",
+    ['Pet Bars'] = "Pet XP",
+    ['Pet Bars Short'] = "XP",
+    ['Bars'] = "bars",
+	['Rested'] = "Rested",
+	['Rested Short'] = "R",
+	['Timer'] = 'Timer',
+	['Timer Short'] = "T",
+	["TimeToLevel"] = "TimeToLevel",
+    
+    --[[
+      || Tooltip
+    --]]
+    ['XToLevel'] = "XToLevel",
+    ['Experience'] = "Experience",
+    ['Pet Experience'] = "Pet Experience",
+	['XP Progress'] = "progress",
+	['XP Bars Remaining'] = "bars remaining",
+	['XP Rested'] = "rested",
+	['Quest XP Required'] = "quest XP needed",
+	['Kill XP Required'] = "kill XP needed",
+    ['Battlegrounds Required'] = "Battlegrounds Required",
+	['Current Battleground'] = "Current Battleground",
+	['Last Battleground'] = "Last Battleground",
+	['Dungeons Required'] = "Dungeons Required",
+	['Current Dungeon'] = "Current Dungeon",
+	['Last Dungeon'] = "Last Dungeon",
+	['No Dungeons Completed'] = "No data",
+	['Name'] = "Name",
+	['Total XP'] = "Total XP",
+    ['Total Rested'] = "Total Rested",
+	['NPC Kills'] = "NPC Kills",
+	['No Battles Fought'] = "No data",
+    ['Click To Configure'] = "Click to configure",
+	['Right Click To Configure'] = "Right click to configure",
+	['Average'] = "Average",
+	['Max'] = "Max",
+	['Min'] = "Min",
+	['Kills to level'] = "Kills to level",
+	
+	["Updating..."] = "Updating...",
+	["Session"] = "Session",
+	["Level"] = "Level",
+	["Mode"] = "Data",
+	["Time to level"] = "Time to level",
+	["Time elapsed"] = "Time elapsed",
+	["XP per hour"] = "XP/hr",
+	["XP Needed"] = "XP Needed",
+	
+	["No Kills Recorded"] = "No kills recorded this session. Using level data instead. Go kill something!",
+	
+	--[[
+	  || Configuration 
+	--]]
+    ['General Tab'] = 'General',
+    ['Messages Tab'] = 'Messages',
+    ['Window Tab'] = 'Window',
+    ['Data Tab'] = 'Data',
+    ['LDB Tab'] = 'LDB',
+    
+    ['MainDescription'] = 'A simple addon that provides details about the kills, quests, dungeons, battles and experience required to gain a level.',
+    ['Version'] = "Version",
+    ['Author'] = "Author",
+    ['Email'] = "Email",
+    ['Website'] = "Website",
+    ['Category'] = "Category",
+    ['License'] = "License",
+    ['All Rights Reserved'] = "All rights reserved.",
+    ["This option becomes available at level 10"] = "This option becomes available at level 10.",
+    ["This option becomes available at level 15"] = "This option becomes available at level 15.",
+    
+	-- Main panel
+	['LocaleHeader'] = "Locale",
+	['Debug'] = "Debug",
+	['Show Debug Info'] = "Show Debug Info",
+    ['Close'] = "Close",
+    ['Config Language Reload Prompt'] = "The locale will not be updated until the UI is reloaded. Do you want to reload now?",
+    ['Yes'] = 'Yes',
+    ['No'] = 'No',
+    
+    ['Recruit A Friend'] = "Recruit A Friend",
+    ['Enable'] = "Enable",
+    ['RAF Description'] = "This tripples the XP gained when RAF is enabled, and when the RAF bonus is being applied. I can not debug this myself because I do not live in a RAF eligible country, so if you can confirm whether or not this works it would be much appreciated.",
+    
+    -- Tab buttons & headers
+    ['Messages'] = "Messages",
+    ['Tooltip'] = "Tooltip",
+    ['Data'] = "Data",
+    ['Window Tab'] = "Window",
+    ['LDB Tab'] = "LDB",
+    ['LDB Text'] = "LDB Text",
+    ['Average Window'] = "Average Window",
+    ['Average Data'] = "Average Data",
+    ['Verbose'] = "Verbose",
+	
+	-- Messages
+	['Player Messages'] = "Player Messages",
+	['Pet Messages'] = "Pet Messages",
+	['Show Floating'] = "Show floating",
+	['Show In Chat'] = "Show in Chat",
+	['Show BG Objectives'] = "Show BG Objectives",
+    ['Message Colors'] = 'Message Colors',
+    ['Player Levelup'] = 'Level-up',
+	['Color Reset'] = 'Reset',
+    ['Color Reset Dialog'] = 'Are you sure you want to reset all the colors?';
+	
+	-- Average Window
+    ['Active Window Header'] = "Active Window",
+    ['Classic Specific Options'] = "\"Classic\" specific options",
+    ['Blocky Specific Options'] = "\"Blocky\" specific options",
+    ['Window Behavior Header'] = "Behavior",
+	
+	['Show XToLevel Header'] = "Show XToLevel Header",
+	['Show Window Frame'] = "Show Window Frame",
+	['Show Tooltip'] = "Show Tooltip",
+	['Show Verbose Text'] = "Use Verbose Text",
+	['Show Colored Text'] = "Show Colored Text",
+	['Progress As Bars'] = "Progress as bars",
+	['Combine Tooltip Data'] = "Combine Tooltip Data",
+	
+	['Vertical Align'] = "Vertical Align",
+    ['Show Pet Frame'] = "Show Pet Frame",
+    ['Detach Pet Frame'] = "Detach Pet Frame",
+    
+	['Lock Avarage Display'] = "Lock Window",
+	['Allow Average Click'] = "Show Config on Right-Click",
+    
+	['Player Kills'] = "Kills",
+	['Player Quests'] = "Quests",
+	['Player Dungeons'] = "Dungeons",
+	['Player Battles'] = "Battles",
+	['Player Objectives'] = "Objectives",
+	['Player Progress'] = "Progress",
+	['Player Experience'] = "Experience",
+    
+    ['Pet Kills'] = "Pet Kills",
+    ['Pet Progress'] = "Pet Progress",
+	
+	-- Average Data
+	['Data Range Header'] = "Range",
+    ['Data Range Subheader'] = "These set how many recorded items the average calculations use. The higher you set these the more accurate they get, but it takes them longer to adjust to changes.",
+    ["Clear Data Header"] = "Clear Data",
+    ["Clear Data Subheader"] = "Use these to clear the recorded data. Note that THIS CAN NOT BE REVERSED! Use with caution.",
+    ['Reset Player Kills'] = "Kills",
+    ['Reset Player Quests'] = "Quests",
+    ['Reset Battlegrounds'] = "Battles",
+    ['Reset Dungeons'] = "Dungeons",
+    ['Reset Pet Kills'] = "Pet",
+    ['Reset Player Kill Dialog'] = "Are you sure you want to delete the player kill records?",
+    ['Reset Player Quest Dialog'] = "Are you sure you want to delete the player quest records?",
+    ['Reset Battleground Dialog'] = "Are you sure you want to delete the battleground records?",
+    ['Reset Dungeon Dialog'] = "Are you sure you want to delete the dungeon records?",
+    ['Reset Pet Kill Dialog'] = "Are you sure you want to delete the kill records for your pets?",
+	
+	-- LDB Text
+    ['LDB Appearence Header'] = "Appearence",
+	['LDB Pattern Header'] = "Text Pattern",
+	['LDB Player Data Header'] = "Player Data",
+	['LDB Pet Data Header'] = "Pet Data",
+    ['LDB Tooltip Header'] = "Tooltip",
+	['Show Text'] = "Show Text",
+	['Show Label'] = "Show Label",
+	['Show Icon'] = "Show Icon",
+	['Show Progress As Bars'] = "Show XP progress as bars",
+	['Show XP remaining'] = 'Show XP remaining, rather than gained.',
+	['Shorten XP values'] = 'Shorten XP values',
+	['Allow Colored Text'] = "Allow Colored Text",
+	['Show Verbose'] = "Use verbose text",
+	['Color By XP'] = "Color data by XP progress",
+	['XP %'] = "XP %",
+	['Pet XP %'] = "Pet XP %",
+	['LDB Custom Pattern Help'] = "Available Tags:\n" ..
+	"|cFFFFD100Player:|r {kills}, {quests}, {dungeons}, {bgs}, {bgo}, {xp}, {xpnum}, {rested}, {restedp}\n" ..
+	"|cFFFFD100Pet:|r {pet}, {petxp}, {petxpnum}\n\n" ..
+	"|cFFFFD100Within tags you can use:|r\n" ..
+	"{$label} - The short name (e.g. 'K' for Kills).\n" ..
+	"{$value} - The calculated value (e.g. '123').\n" ..
+	"{$seperator:X} - A separator shown only if it's not the first element.\n\n" ..
+	"|cFFFFD100Styling:|r\n" ..
+	"{color=RRGGBB}text{/color} - Apply a hex color to text.\n" ..
+	"{progress}text{/progress} - Apply the progress-based color (green to red).\n\n" ..
+	"|cFFFFD100Example:|r K: {kills}{progress}[{$value}]{/progress}{/kills}",
+	
+	-- Tooltip
+	['Tooltip Sections Header'] = "Sections",
+	['Show Player Details'] = "Show Player Details",
+	['Show Player Experience'] = "Show Player Experience",
+	['Show Battleground Info'] = "Show Battleground Info",
+    ['Show Dungeon Info'] = "Show Dungeon Info",
+	['Show Pet Details'] = "Show Pet Details",
+    ['Show Timer Details'] = "Show Timer Details",
+}
+//esES.lua
+LOCALE["esES"] = {
+    --[[
+      || Messages
+    --]]
+	['Level Reached'] = "Nivel alcanzado. Felicidades!",
+    ['Pet Level Reached'] = " ha alcanzado el nivel siguiente. Felicidades!",
+	['Quests Needed'] = " más misiones como la que es necesario nivel",
+	['Battlegrounds Needed'] = " más batallas como la que es necesario nivel",
+	['Battleground Objectives Needed'] = " más objetivos como la que es necesario nivel",
+	['Dungeons Needed'] = " más mazmorra como la que es necesario nivel",
+	['Kills Needed'] = " necesarias para alcanzar el próximo nivel",
+	['Pet Kills Needed'] = " necesarios para ",
+
+	--[[
+      || Average Window & LDB Text
+    --]]
+    ['XP'] = "XP",
+	['Kills'] = "Criaturas",
+    ['Kills Short'] = "Cr",
+	['Quests'] = "Misiones",
+    ['Quests Short'] = "Mi",
+    ['Dungeons'] = "Mazmorras",
+    ['Dungeons Short'] = "Mz",
+	['Pet'] = "Mascota",
+	['Pet Short'] = "Ma",
+	['Battles'] = "Batallas",
+    ['Battles Short'] = "B",
+	['Battlegrounds'] = "Campos de batalla",
+    ['Battlegrounds Short'] = "B",
+	['Objectives'] = "Objetivos",
+    ['Objectives Short'] = "O",
+	['XP Percent'] = "XP",
+	['XP Percent Short'] = "XP",
+	['XP Bars'] = "XP",
+    ['XP Bars Short'] = "XP",
+    ['Pet XP'] = "Mascota XP",
+    ['Pet XP Short'] = "XP",
+    ['Pet Bars'] = "Mascota XP",
+    ['Pet Bars Short'] = "XP",
+    ['Bars'] = "bars",
+	['Rested'] = "Rested",
+	['Rested Short'] = "R",
+	['Timer'] = 'Timer',
+	['Timer Short'] = "T",
+	["TimeToLevel"] = "TimeToLevel",
+	
+	--[[
+      || Tooltip
+    --]]
+    ['XToLevel'] = "XToLevel",
+	['Experience'] = "Experiencia",
+    ['Pet Experience'] = "Mascota Experiencia",
+	['XP Progress'] = "progreso",
+    ['XP Bars Remaining'] = "bars remaining",
+	['XP Rested'] = "descansado",
+	['Quest XP Required'] = "misiones XP requerido",
+	['Kill XP Required'] = "criaturas XP requerido",
+    ['Battlegrounds Required'] = "Campos de batalla necesario",
+	['Current Battleground'] = "Campo de batalla actual",
+	['Last Battleground'] = "Último campo de batalla",
+    ['Dungeons Required'] = "Mazmorras necesario",
+	['Current Dungeon'] = "Mazmorra actual",
+	['Last Dungeon'] = "Último mazmorra",
+	['No Dungeons Completed'] = "No hay datos",
+	['Name'] = "Nombre",
+	['Total XP'] = "Total XP",
+    ['Total Rested'] = "Total Descansado",
+	['NPC Kills'] = "NPC Mata",
+	['No Battles Fought'] = "No hay datos",
+	['Click To Configure'] = "Haga clic aquí para configurar",
+	['Right Click To Configure'] = "Haga derecho clic aquí para configurar",
+    ['Average'] = "Media",
+	['Max'] = "Max",
+	['Min'] = "Min",
+	['Kills to level'] = "Kills to level",
+	
+	["Updating..."] = "Updating...",
+	["Session"] = "Session",
+	["Level"] = "Level",
+	["Mode"] = "Mode",
+	["Time to level"] = "Time to level",
+	["Time elapsed"] = "Time elapsed",
+	["XP per hour"] = "XP/hr",
+	["XP Needed"] = "XP Needed",
+	
+	["No Kills Recorded"] = "No kills recorded this session. Using level data instead. Go kill something!",
+
+	--[[
+	  || Configuration 
+	--]]
+    ['General Tab'] = 'General',
+    ['Messages Tab'] = 'Mensajes',
+    ['Window Tab'] = 'Ventana',
+    ['Data Tab'] = 'Datos',
+    ['LDB Tab'] = 'LDB',
+    
+    ['MainDescription'] = 'Un addon simple que proporciona detalles acerca de la mata, misiones, mazmorras batallas, y la experiencia necesarias para obtener un nivel.',
+    ['Version'] = "Versión",
+    ['Author'] = "Autor",
+    ['Email'] = "Email",
+    ['Website'] = "Sitio web",
+    ['Category'] = "Categoría",
+    ['License'] = "Licencia",
+    ['All Rights Reserved'] = "Todos los derechos reservados.",
+    ["This option becomes available at level 10"] = "Esta opción está disponible en el nivel 10.",
+    ["This option becomes available at level 15"] = "Esta opción está disponible en el nivel 15.",
+    
+    -- Main panel
+    ['LocaleHeader'] = "Lugar",
+	['Debug'] = "Depurar",
+	['Show Debug Info'] = "Mostrar Depurar",
+    ['Close'] = "Cerrar",
+    ['Config Language Reload Prompt'] = "La lengua no puede ser actualizada hasta que se recargue el UI. ¿Usted quiere ahora recargarla?",
+    ['Yes'] = 'Sí',
+    ['No'] = 'No',
+    
+    ['Recruit A Friend'] = "Recluta A Un Amigo",
+    ['Enable'] = "Habilitar",
+    ['RAF Description'] = "Esta tripples la experiencia ganada cuando se habilita la RUA, y cuando el bono RUA se está aplicando. No se puede depurar por mi mismo, porque yo no vivo en un país elegible RUA, por lo que si puede confirmar si esto funciona o no, sería muy apreciado.",
+    
+    -- Tab buttons & headers
+    ['Messages'] = "Mensajes",
+    ['Tooltip'] = "Tooltip",
+    ['Data'] = "Datos",
+    ['Window Tab'] = "Ventana",
+    ['LDB Tab'] = "LDB",
+    ['LDB Text'] = "LDB Texto",
+    ['Average Window'] = "La media de ventana",
+    ['Average Data'] = "La media de datos",
+    ['Verbose'] = "Verbose",
+	
+	-- Messages
+	['Player Messages'] = "Reproductor de mensajes",
+	['Pet Messages'] = "Mascota mensajes",
+    ['Show Floating'] = "La flotante ventana",
+	['Show In Chat'] = "La defecto ventana de chat",
+	['Show BG Objectives'] = "Mostrar BG objetivos",
+    ['Message Colors'] = 'Colores mensaje',
+	['Player Levelup'] = 'Level-up',
+	['Color Reset'] = 'Reset',
+	['Color Reset Dialog'] = '¿Estás seguro de que desea restablecer todos los colores?';
+	
+	-- Average Window
+    ['Active Window Header'] = "Ventana Activa",
+    ['Classic Specific Options'] = "\"Classic\" opciones específicas",
+    ['Blocky Specific Options'] = "\"Blocky\" opciones específicas",
+    ['Window Behavior Header'] = "Comportamiento",
+	
+	['Show XToLevel Header'] = "Mostrar la XToLevel label",
+	['Show Window Frame'] = "Mostrar de marco",
+	['Show Tooltip'] = "Mostrar de tooltip",
+	['Show Verbose Text'] = "Verbose Text",
+	['Show Colored Text'] = "Coloree los datos",
+    ['Progress As Bars'] = "Progreso como bares",
+    ['Combine Tooltip Data'] = "Combinar datos de Tooltip",
+	
+	['Vertical Align'] = "Alinear Verticalmente",
+    ['Show Pet Frame'] = "Mostrar el marco de mascotas",
+    ['Detach Pet Frame'] = "Separar el marco de mascotas",
+	
+	['Lock Avarage Display'] = "Inmovilizar",
+	['Allow Average Click'] = "Botón derecho abierto configuración",
+	
+	['Player Kills'] = "Matar",
+	['Player Quests'] = "Misiones",
+	['Player Dungeons'] = "Mazmorras",
+	['Player Battles'] = "Batallas",
+	['Player Objectives'] = "Objetivos",
+	['Player Progress'] = "Progreso",
+	['Player Experience'] = "Experience",
+    
+    ['Pet Kills'] = "Mascota matar",
+    ['Pet Progress'] = "Mascota Progreso",
+    	
+	-- Average Data
+	['Data Range Header'] = "Alcance",
+    ['Data Range Subheader'] = "Estos establecer cuántas partidas registradas los cálculos promedio de uso. Cuanto más alto sea el más preciso de estos que reciben, pero se tarda más tiempo a adaptarse a los cambios.",
+    ["Clear Data Header"] = "Borrar los datos.",
+    ["Clear Data Subheader"] = "Utilice estos para borrar los datos registrados. Tenga en cuenta que ello no puede ser invertida! Utilizar con precaución.",
+    ['Reset Player Kills'] = "Matar",
+    ['Reset Player Quests'] = "Misiones",
+    ['Reset Battlegrounds'] = "Batallas",
+    ['Reset Dungeons'] = "Mazmorras",
+    ['Reset Pet Kills'] = "Mascota",
+    ['Reset Player Kill Dialog'] = "¿Estás seguro de que deseas eliminar todos los datos de matar?",
+    ['Reset Player Quest Dialog'] = "¿Estás seguro de que deseas eliminar todos los datos de misiones?",
+    ['Reset Battleground Dialog'] = "¿Estás seguro de que deseas eliminar todos los datos de batallas?",
+    ['Reset Dungeon Dialog'] = "¿Estás seguro de que deseas eliminar todos los datos de mazmorras?",
+    ['Reset Pet Kill Dialog'] = "¿Estás seguro de que deseas eliminar todos los datos de mascota?",
+	
+	-- LDB Text
+    ['LDB Appearence Header'] = "Apariencia",
+	['LDB Pattern Header'] = "Patrón del texto",
+    ['LDB Player Data Header'] = "Jugador Datos",
+	['LDB Pet Data Header'] = "Mascota Datos",
+    ['LDB Tooltip Header'] = "Tooltip",
+	['Show Text'] = "Mostrar la Texto",
+	['Show Label'] = "Mostrar la Etiqueta",
+	['Show Icon'] = "Mostrar la Icon",
+    ['Show Progress As Bars'] = "Mostrar XP Progreso como bares",
+	['Show XP remaining'] = 'Show XP remaining, rather than gained.',
+	['Shorten XP values'] = 'Shorten XP values',
+	['Allow Colored Text'] = "Permiten la color de texto",
+	['Show Verbose'] = "Verbose",
+	['Color By XP'] = "Coloree text por progreso de XP",
+	['XP %'] = "XP %",
+	['Pet XP %'] = "Pet XP %",
+	['LDB Custom Pattern Help'] = "Etiquetas disponibles:\n" ..
+	"|cFFFFD100Jugador:|r {kills}, {quests}, {dungeons}, {bgs}, {bgo}, {xp}, {xpnum}, {rested}, {restedp}\n" ..
+	"|cFFFFD100Mascota:|r {pet}, {petxp}, {petxpnum}\n\n" ..
+	"|cFFFFD100Dentro de las etiquetas puedes usar:|r\n" ..
+	"{$label} - El nombre corto (ej. 'Cr' para Criaturas).\n" ..
+	"{$value} - El valor calculado (ej. '123').\n" ..
+	"{$seperator:X} - Un separador que solo se muestra si no es el primer elemento.\n\n" ..
+	"|cFFFFD100Estilo:|r\n" ..
+	"{color=RRGGBB}texto{/color} - Aplicar un color hexadecimal al texto.\n" ..
+	"{progress}texto{/progress} - Aplicar el color basado en el progreso (de verde a rojo).\n\n" ..
+	"|cFFFFD100Ejemplo:|r Cr: {kills}{progress}[{$value}]{/progress}{/kills}",
+	
+	-- Tooltip
+	['Tooltip Sections Header'] = "Sections",
+	['Show Player Details'] = "Mostrar detalles del Jugador",
+	['Show Player Experience'] = "Mostrar la experiencia del jugador",
+	['Show Battleground Info'] = "Mostrar campo de batalla Información",
+	['Show Dungeon Info'] = "Mostrar Mazmorras Información.",
+	['Show Pet Details'] = "Mostrar los detalles de mascota.",
+    ['Show Timer Details'] = "Show Timer Details",
+}
+//frFR.lua
+LOCALE["frFR"] = {
+    --[[
+      || Messages
+    --]]
+	['Level Reached'] = "Le niveau est atteint. Félicitations!",
+    ['Pet Level Reached'] = " a atteint son niveau suivant. Félicitations!",
+	['Quests Needed'] = " recherches de plus nécessaires pour monter de niveau",
+	['Battlegrounds Needed'] = " BG de plus nécessaires pour monter de niveau",
+	['Battleground Objectives Needed'] = " objectifs de plus nécessaires pour monter de niveau",
+	['Dungeons Needed'] = " donjons plus nécessaires pour monter de niveau",
+	['Kills Needed'] = " nécessaires pour pour monter de niveau",
+	['Pet Kills Needed'] = " requises pour ",    
+    
+	--[[
+      || Average Window & LDB Text
+    --]]
+    ['XP'] = "XP",
+	['Kills'] = "Mobs",
+    ['Kills Short'] = "M",
+	['Quests'] = "Quétes",
+    ['Quests Short'] = "Q",
+    ['Dungeons'] = "Donjons",
+    ['Dungeons Short'] = "D",
+	['Pet'] = "Familier",
+    ['Pet Short'] = "F",
+	['Battles'] = "Batailles",
+    ['Battles Short'] = "B",
+	['Battlegrounds'] = "Champ de bataille",
+    ['Battlegrounds Short'] = "B",
+	['Objectives'] = "Objectifs",
+    ['Objectives Short'] = "O",
+    ['XP Percent'] = "XP",
+	['XP Percent Short'] = "XP",
+	['XP Bars'] = "XP",
+    ['XP Bars Short'] = "XP",
+    ['Pet XP'] = "Familier XP",
+    ['Pet XP Short'] = "XP",
+    ['Pet Bars'] = "Familier XP",
+    ['Pet Bars Short'] = "XP",
+    ['Bars'] = "bars",
+	['Rested'] = "Rested",
+	['Rested Short'] = "R",
+	['Timer'] = 'Timer',
+	['Timer Short'] = "T",
+	["TimeToLevel"] = "TimeToLevel",
+	
+	--[[
+      || Tooltip
+    --]]
+    ['XToLevel'] = "XToLevel",
+	['Experience'] = "Expérience",
+    ['Pet Experience'] = "Familier Expérience",
+	['XP Progress'] = "progrès",
+    ['XP Bars Remaining'] = "bars nécessaire",
+	['XP Rested'] = "reposé",
+	['Quest XP Required'] = "quétes XP nécessaire",
+	['Kill XP Required'] = "mob XP nécessaire",
+	['Battlegrounds Required'] = "Champ de bataille nécessaire",
+	['Current Battleground'] = "champ de bataille en cours",
+	['Last Battleground'] = " Champ de bataille précedent",
+    ['Dungeons Required'] = "Donjons nécessaire",
+	['Current Dungeon'] = "Donjon  en cours",
+	['Last Dungeon'] = "Donjon précedent",
+	['No Dungeons Completed'] = "Aucune donnée",
+	['Name'] = "Nom",
+	['Total XP'] = "Total XP",
+    ['Total Rested'] = "Total Reposé",
+	['NPC Kills'] = "PNJ tués",
+	['No Battles Fought'] = "Aucune donnée",
+	['Click To Configure'] = "Cliquez ici pour configurer",
+	['Right Click To Configure'] = "Clic droit pour configurer",
+    ['Average'] = "Moyenne",
+	['Max'] = "Max",
+	['Min'] = "Min",
+	['Kills to level'] = "Kills to level",
+	
+	["Updating..."] = "Updating...",
+	["Session"] = "Session",
+	["Level"] = "Level",
+	["Mode"] = "Mode",
+	["Time to level"] = "Time to level",
+	["Time elapsed"] = "Time elapsed",
+	["XP per hour"] = "XP/hr",
+	["XP Needed"] = "XP Needed",
+	
+	["No Kills Recorded"] = "No kills recorded this session. Using level data instead. Go kill something!",
+	
+	--[[
+	  || Configuration 
+	--]]
+    ['General Tab'] = 'Général',
+    ['Messages Tab'] = 'Messages',
+    ['Window Tab'] = 'Fenêtre',
+    ['Data Tab'] = 'Données',
+    ['LDB Tab'] = 'LDB',
+    
+    ['MainDescription'] = 'Un addon simple qui fournit des détails sur la tue, quêtes, donjons, combats et l\'expérience requises pour gagner un niveau.',
+    ['Version'] = "Version",
+    ['Author'] = "Créateur",
+    ['Email'] = "Email",
+    ['Website'] = "Website",
+    ['Category'] = "Catégorie",
+    ['License'] = "Licence",
+    ['All Rights Reserved'] = "Tous droits réservés.",
+    ["This option becomes available at level 10"] = "Cette option est disponible au niveau 10.",
+    ["This option becomes available at level 15"] = "Cette option est disponible au niveau 15.",
+    
+    -- Main panel
+    ['LocaleHeader'] = "Locale",
+	['Debug'] = "Debug",
+	['Show Debug Info'] = "Montrez Debug",
+    ['Close'] = "Fermer",
+    ['Config Language Reload Prompt'] = "La langue ne peut pas être mise à jour jusqu'à ce que l'UI soit rechargé. Voulez-vous la recharger maintenant ?",
+    ['Yes'] = 'Oui',
+    ['No'] = 'Non',
+    
+    ['Recruit A Friend'] = "Parrainer Un Ami",
+    ['Enable'] = "Habiliter",
+    ['RAF Description'] = "Cette tripples l'XP acquise lors de la PUA est activé, et lorsque la PUA bonus est appliqué. Je ne peux pas déboguer ce moi parce que je ne vis pas dans un pays éligible PUA, donc si vous pouvez confirmer si oui ou non cela fonctionne, il serait très apprécié.",
+    
+    -- Tab buttons & headers
+    ['Messages'] = "Messages",
+    ['Tooltip'] = "Tooltip",
+    ['Data'] = "Données",
+    ['Window Tab'] = "Fenêtre",
+    ['LDB Tab'] = "LDB",
+    ['LDB Text'] = "LDB Texte",
+    ['Average Window'] = "Moyenne fenêtre",
+    ['Average Data'] = "Moyenne des données",
+    ['Verbose'] = "Verbose",
+	
+	-- Messages
+	['Player Messages'] = "Messages de joueur",
+	['Pet Messages'] = "Messages de familier",
+	['Show Floating'] = "Montrez de flottement",
+	['Show In Chat'] = "La fenêtre de chat",
+	['Show BG Objectives'] = "Montrez BG objectif",
+    ['Message Colors'] = 'Couleur des Messages',
+	['Player Levelup'] = 'Level-up',
+	['Color Reset'] = 'Reset',
+	['Color Reset Dialog'] = 'Êtes-vous sûr vous voulez-vous remettre à zéro toutes les couleurs?';
+	
+	-- Average Window
+    ['Active Window Header'] = "La fenêtre active",
+    ['Classic Specific Options'] = "\"Classic\" options spécifiques",
+    ['Blocky Specific Options'] = "\"Blocky\" options spécifiques",
+    ['Window Behavior Header'] = "Comportement",
+	
+	['Show XToLevel Header'] = "Voir XToLevel tête",
+	['Show Window Frame'] = "Montrer la fenêtre",
+	['Show Tooltip'] = "Montrer tooltip",
+	['Show Verbose Text'] = "Montrer Verbose Text",
+	['Show Colored Text'] = "Couleur des valeurs",
+    ['Progress As Bars'] = "Progrès que les bars",
+    ['Combine Tooltip Data'] = "Combine les données Tooltip",
+	
+	['Vertical Align'] = "Aligner Verticalement",
+    ['Show Pet Frame'] = "Montrer la fenêtre de familier",
+    ['Detach Pet Frame'] = "Détacher la fenêtre de familier",
+	
+	['Lock Avarage Display'] = "Serrure fenêtre",
+	['Allow Average Click'] = "Clic droit pour ouvrir les paramètres",
+	
+	['Player Kills'] = "Mobs",
+	['Player Quests'] = "Quétes",
+	['Player Dungeons'] = "Donjons",
+	['Player Battles'] = "Batailles",
+	['Player Objectives'] = "Objectife",
+	['Player Progress'] = "Progrès",
+	['Player Experience'] = "Experience",
+    
+    ['Pet Kills'] = "Familier Mobs",
+    ['Pet Progress'] = "Familier Progrès",
+    
+	-- Average Data.
+	['Data Range Header'] = "Portée",
+    ['Data Range Subheader'] = "Elles fixent le nombre d'éléments enregistrés les calculs utilisation moyenne. Plus vous définissez ces plus précise qu'ils reçoivent, mais il faut plus longtemps pour s'adapter aux changements.",
+    ["Clear Data Header"] = "Effacer données.",
+    ["Clear Data Subheader"] = "Utilisez-les pour effacer les données enregistrées. Notez que ce ne peut être renversé! À utiliser avec prudence.",
+    ['Reset Player Kills'] = "Mobs",
+    ['Reset Player Quests'] = "Quétes",
+    ['Reset Battlegrounds'] = "Batailles",
+    ['Reset Dungeons'] = "Donjon",
+    ['Reset Pet Kills'] = "Familier",
+    ['Reset Player Kill Dialog'] = "Êtes-vous sûr vous voulez-vous supprimer toutes les données de mob?",
+    ['Reset Player Quest Dialog'] = "Êtes-vous sûr vous voulez-vous supprimer toutes les données de quest?",
+    ['Reset Battleground Dialog'] = "Êtes-vous sûr vous voulez-vous supprimer toutes les données de bataille?",
+    ['Reset Dungeon Dialog'] = "Êtes-vous sûr vous voulez-vous supprimer toutes les données de donjon?",
+    ['Reset Pet Kill Dialog'] = "Êtes-vous sûr vous voulez-vous supprimer toutes les données de familier?",
+	
+	-- LDB Text
+    ['LDB Appearence Header'] = "Aspect",
+	['LDB Pattern Header'] = "Text Muster",
+    ['LDB Player Data Header'] = "Données de joueur",
+	['LDB Pet Data Header'] = "Données de familier",
+    ['LDB Tooltip Header'] = "Tooltip",
+	['Show Text'] = "Montrer la texte",
+	['Show Label'] = "Montrer la libellé",
+	['Show Icon'] = "Montrer le icône",
+    ['Show Progress As Bars'] = "Montrer XP progrès que les bars",
+	['Show XP remaining'] = 'Show XP remaining, rather than gained.',
+	['Shorten XP values'] = 'Shorten XP values',
+	['Allow Colored Text'] = "Autoriser la coloration du texte",
+	['Show Verbose'] = "Verbeux",
+	['Color By XP'] = "Couleur par XP progrès",
+	['XP %'] = "XP %",
+	['Pet XP %'] = "Familier XP %",
+	['LDB Custom Pattern Help'] = "Balises disponibles:\n" ..
+	"|cFFFFD100Joueur:|r {kills}, {quests}, {dungeons}, {bgs}, {bgo}, {xp}, {xpnum}, {rested}, {restedp}\n" ..
+	"|cFFFFD100Familier:|r {pet}, {petxp}, {petxpnum}\n\n" ..
+	"|cFFFFD100Dans les balises, vous pouvez utiliser:|r\n" ..
+	"{$label} - Le nom court (par ex. 'M' pour Mobs).\n" ..
+	"{$value} - La valeur calculée (par ex. '123').\n" ..
+	"{$seperator:X} - Un séparateur affiché uniquement s'il ne s'agit pas du premier élément.\n\n" ..
+	"|cFFFFD100Style:|r\n" ..
+	"{color=RRGGBB}texte{/color} - Appliquer une couleur hexadécimale au texte.\n" ..
+	"{progress}texte{/progress} - Appliquer la couleur basée sur la progression (du vert au rouge).\n\n" ..
+	"|cFFFFD100Exemple:|r M: {kills}{progress}[{$value}]{/progress}{/kills}",
+	
+	-- Tooltip
+	['Tooltip Sections Header'] = "Sections",
+	['Show Player Details'] = "Montrer les détails de joueur",
+	['Show Player Experience'] = "Montrer les expérience de joueur",
+	['Show Battleground Info'] = "Montrer information de bataille",
+    ['Show Dungeon Info'] = "Montrer information de donjon",
+	['Show Pet Details'] = "Montrer les détails de familier",
+    ['Show Timer Details'] = "Show Timer Details",
+}

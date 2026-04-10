@@ -1,0 +1,26 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Script file="libs\LibDataBroker-1.1\LibDataBroker-1.1.lua"/>
+
+    <Script file="Locale.lua"/>
+    <Script file="locale\enUS.lua"/>
+    <Script file="locale\frFR.lua"/>
+    <Script file="locale\deDE.lua"/>
+    <Script file="locale\esES.lua"/>
+    <Script file="locale\dkDK.lua"/>
+
+    <Script file="Main.lua"/>
+    <Script file="Tables.lua"/>
+    <Script file="Libs.lua"/>
+    <Script file="Config.lua"/>
+
+    <Script file="objects\Messages.lua"/>
+    <Script file="objects\LDB.lua"/>
+    <Script file="objects\Tooltip.lua"/>
+    <Script file="objects\Average.lua"/>
+    <Script file="objects\Player.lua"/>
+    <Script file="objects\Pet.lua"/>
+
+    <Include file="frames\GlobalTemplates.xml"/>
+    <Include file="frames\AverageFrame_Classic.xml"/>
+    <Include file="frames\AverageFrame_Blocky.xml"/>
+</Ui>

@@ -1,0 +1,8 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Script file="ClassForge.lua"/>
+    <Script file="ClassForge_AutoPresets.lua"/>
+    <Script file="ClassForge_Utils.lua"/>
+    <Script file="ClassForge_Comm.lua"/>
+    <Script file="ClassForge_Display.lua"/>
+    <Script file="ClassForge_UI.lua"/>
+</Ui>
